@@ -38,3 +38,9 @@ class MainActivity : ComponentActivity() {
 fun FunFactsApp(){
     NavigationGraph()
 }
+
+@Preview(showBackground = true)
+@Composable
+fun FunfactsAppPreview(){
+    FunFactsApp()
+}
